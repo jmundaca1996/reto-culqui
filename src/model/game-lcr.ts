@@ -118,7 +118,7 @@ export class Game {
         })
     }
 
-    public dataResults(): any[] {
+    public dataResults(): GamePlayer[] {
         return this.results;
     }
 }
